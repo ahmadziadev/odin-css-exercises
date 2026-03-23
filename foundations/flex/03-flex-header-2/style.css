@@ -14,15 +14,18 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  align-items: center;
+  padding: 12px;
 }
 
-ul, 
 .right-items,
 .left-items{
   display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+ul {
+  display: flex;
   margin: 0px;
   padding: 0px;
   gap: 12px;
